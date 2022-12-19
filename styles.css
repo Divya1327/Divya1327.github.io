@@ -294,14 +294,16 @@ header .navbar ul li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 40rem;
-  height: 40rem;
+  width: 45rem;
+  height: 45rem;
   border-radius: 1rem;
   margin: 2rem;
-  overflow: hidden;
+  /* overflow: hidden; */
   cursor: pointer;
   font-size: 1.4rem;
   color: #fff;
+  padding-bottom: 50px;
+  
 
 }
 
@@ -573,6 +575,7 @@ rect.ContributionCalendar-day[data-level='4'] {
   text-align: center;
   margin: 0 auto;
   color: white;
+
 }
 
 .calendar-graph text.wday,
@@ -850,4 +853,12 @@ text.ContributionCalendar-label {
 
 .stats-cont img {
   width: 40%;
+}
+
+.cal-cont {
+  width: 100%;
+  margin: auto;
+  margin-right: 50rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
 }
