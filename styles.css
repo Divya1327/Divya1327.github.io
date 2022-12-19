@@ -22,7 +22,7 @@
 }
 
 html {
-  font-size: 70.5%;
+  font-size: 75.5%;
   overflow-x: hidden;
 }
 
@@ -121,7 +121,7 @@ header .navbar {
 
 header .navbar ul {
   list-style: none;
-  padding: 1rem 3rem;
+padding: 1rem 3rem;
 }
 
 header .navbar ul li a {
