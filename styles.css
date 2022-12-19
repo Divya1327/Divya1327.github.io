@@ -22,7 +22,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 85.5%;
   overflow-x: hidden;
 }
 
@@ -130,7 +130,7 @@ header .navbar ul li a {
   margin: 1.5rem 0;
   background: #333;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-radius: 5rem;
 }
 
@@ -152,6 +152,8 @@ header .navbar ul li a:hover {
 }
 
 .home {
+  background: url("stike.jpg") top center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: column;
@@ -239,7 +241,7 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box {
-  width: 35rem;
+  width: 50rem;
   margin: 4rem 1rem;
   padding-left: 4rem;
   border-left: .2rem solid #fff;
@@ -315,7 +317,7 @@ header .navbar ul li a:hover {
 
 .project .box-container .box img {
   width: 100%;
-  /* object-fit: cover; */
+
 }
 
 .project .box-container .box:hover img {
@@ -433,6 +435,99 @@ header .navbar ul li a:hover {
 .top img {
   width: 5rem;
 }
+
+
+
+
+
+
+/* --------------------------------------------------------- */
+.proj-cont {
+  width: 100%;
+  gap: 30px;
+  color: #fff;
+}
+
+.proj-cont .box {
+  display: flex;
+  width: 90%;
+  padding: 25px;
+  background: #111;
+  margin: auto;
+  gap: 50px;
+  margin-top: 25px;
+  border-radius: 7px;
+  border: 1px solid rgb(108, 117, 125);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+/* .proj-cont .box:hover .img img{
+  transform: scale(1.1);
+  transition: 0.3s;
+} */
+.proj-cont .box .img {
+  width: 40%;
+  display: grid;
+  gap: 20px;
+  overflow: hidden;
+  border-radius: 0 20px 0 0;
+}
+
+.proj-cont .box:hover .img img {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+/* .proj-cont .box:hover{
+  border: 2px solid #06d6a0;
+} */
+.proj-cont .box .img img {
+  width: 100%;
+  border-radius: 0 20px;
+}
+
+.proj-cont .box .img div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.proj-cont .box .desc {
+  width: 50%;
+}
+
+.proj-cont .box .desc h3 {
+  font-size: 25px;
+}
+
+.proj-cont .box .desc p {
+  font-size: 16px;
+}
+
+.proj-cont .box .desc .tec {
+  margin: auto;
+  /* border: 3px solid white;
+  margin-top: 50px; */
+}
+
+.proj-cont .box .desc .tec h4 {
+  font-size: 20px;
+}
+
+.a_btn {
+  display: block;
+  background-color: #06d6a0;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.a_btn:hover {
+  background-color: #06d6a0;
+  transition: 0.3s;
+}
+
 
 :root {
   --color-calendar-graph-day-bg: #464646;
