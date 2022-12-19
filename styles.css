@@ -22,7 +22,7 @@
 }
 
 html {
-  font-size: 75.5%;
+  font-size: 70.5%;
   overflow-x: hidden;
 }
 
@@ -121,7 +121,7 @@ header .navbar {
 
 header .navbar ul {
   list-style: none;
-padding: 1rem 3rem;
+  padding: 1rem 3rem;
 }
 
 header .navbar ul li a {
@@ -819,4 +819,35 @@ text.ContributionCalendar-label {
   .conct a {
     font-size: 14px;
   }
+
+
+}
+
+.github-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.git-cont {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.git-cont img {
+  width: 40%;
+}
+
+.stats-cont {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.stats-cont img {
+  width: 40%;
 }
