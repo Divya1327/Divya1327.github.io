@@ -517,7 +517,7 @@ header .navbar ul li a:hover {
 
 .a_btn {
   display: block;
-  background-color: #06d6a0;
+  background-color: #ce93d8;
   border-radius: 5px;
   border: none;
   color: #fff;
@@ -526,7 +526,7 @@ header .navbar ul li a:hover {
 }
 
 .a_btn:hover {
-  background-color: #06d6a0;
+  background-color: #ce93d8;
   transition: 0.3s;
 }
 
@@ -641,7 +641,7 @@ rect.ContributionCalendar-day[data-level='4'] {
   line-height: 1.3em;
   font-size: 24px;
   display: block;
-  color: #0a9c90;
+  color: #ce93d8;
 }
 
 .calendar img.spinner {
@@ -657,7 +657,7 @@ rect.ContributionCalendar-day[data-level='4'] {
 }
 
 .monospace a {
-  color: #1D75AB;
+  color: #ce93d8;
   text-decoration: none;
 }
 
@@ -677,7 +677,7 @@ rect.ContributionCalendar-day[data-level='4'] {
 }
 
 .left.text-muted a {
-  color: #4078c0;
+  color: #ce93d8;
   text-decoration: none;
 }
 
